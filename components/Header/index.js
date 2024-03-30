@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@/components/ui/button";
 const Header = () => {
   return (
     <div className="flex items-center mt-10 w-full justify-around ">
@@ -21,9 +22,7 @@ const Header = () => {
           </select>
         </div>
       </div>
-      <button className="bg-slate-500 text-white rounded-md px-4 py-2 hover:bg-slate-700 transition-all ease-in-out float-right">
-        Generate
-      </button>
+      <Button>Generate</Button>
     </div>
   );
 };
